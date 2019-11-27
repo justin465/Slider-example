@@ -1,0 +1,159 @@
+/** Css for slideshow example */
+
+html,
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.topbar{
+	height:100px;
+	color: white;
+	background-color: #252525;
+}
+
+.navbar{
+	width: 100%;
+	margin: 5px;
+}
+
+header{
+	height: 66px;
+}
+
+.main-wrapper{
+	width: 100%;
+	margin: 5px;
+}
+
+.main-content{
+
+}
+
+.navbar ul{
+	/*display: inline-block;
+	float: left;
+	text-decoration: none; */
+	display: inline-block;
+	
+	width: 100%;
+	background-color: #252525;
+}
+
+.navbar ul li{
+	text-decoration: none;
+	display: block;
+	float: left;
+	background-color: red;
+	width: 22%;
+	text-align: center;
+	padding: 12px 14px;
+}
+
+.navbar a{
+	color: white;
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+.navbar li:hover{
+	color: grey;
+	background-color: blue;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.navbar:after{
+	clear: both;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+}
+
+a{
+
+}
+
+a:hover{
+
+}
+
+.fas fa-home{
+	font-size: 20px;
+}
+
+.footer .footer-bottom p{
+	color: white;
+	position: absolute;
+}
+/** footer section */
+.footer .footer-content{
+	flex: 1;	
+	height: 500px;
+	background-color: black;
+}
+
+.footer .footer-bottom{
+	height: 100px;
+	background-color: #252525;
+}
+
+/* Post Slider styling */
+.post-slider{
+	position: relative;
+	width: 100%;
+}
+
+.post-slider .slider-title{
+	text-align: center;
+	margin: 30px auto;
+}
+
+.post-slider .next{
+	position: absolute;
+	top: 50%;
+	right: 50px;
+	cursor: pointer;
+}
+
+.post-slider .prev{
+	position: absolute;
+	top: 50%;
+	left: 50px;
+	cursor: pointer;
+}
+
+.post-slider .post-wrapper{
+	
+	width: 84%;
+	height: 350px;
+	margin: 0px auto;
+	overflow: hidden;
+
+}
+
+.post-slider .post-wrapper .post{
+	width: 300px;
+	height: 350px;
+	margin: 0px 10px;
+	display: inline-block;
+	
+}
+/** Media Queries */
+
+@media only screen and (max-width: 750px){
+	header {
+		position: relative;
+	}
+}
+
+@media only screen and (min-width: 751px){
+	header{
+		position: relative;
+	}
+}
